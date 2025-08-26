@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
 :root {
-  --body-color: linear-gradient(130deg, #000000,#004aad, #2b0040);
-  --color-white: #ccc;
-  --text-color-second: #b3c7ff;
-  --text-color-third: #ffcc66;
-  --first-color: #684eea;
-  --first-color-hover: #285bd4;
-  --second-color: #00c9ff;
-  --third-color: #c0a631;
-  --first-shadow-color: rgba(0, 0, 0, 0.25);
-  --muted-color: #8888aa;
-  --glass-bg: rgba(255, 255, 255, 0.08);
+  --body-color: linear-gradient(135deg, #001f3f, #003459, #005f73); /* deep ocean + clouds */
+
+  --color-white: #f1f5f9;
+  --text-color-second: #e0f7fa; 
+  --text-color-third: #76c7c0;
+  --muted-color: #94a3b8;
+
+  --first-color: #0077b6;        
+  --first-color-hover: #0096c7;  
+  --second-color: #00b4d8;       
+  --third-color: #90e0ef;        
+
+  --first-shadow-color: rgba(0, 32, 64, 0.5);
+  --glass-bg: rgba(255, 255, 255, 0.05);
 }
+
+
+
+
+
 
 * {
   margin: 0;
@@ -179,8 +186,8 @@ nav {
 }
 
 .featured-text-card span {
-  background: var(--third-color);
-  color: var(--color-white);
+  background: var(--second-color);
+
   padding: 3px 8px;
   font-size: 12px;
   border-radius: 5px;
@@ -575,7 +582,7 @@ h3 {
   padding: 20px 30px;
   width: 100%;
   height: 315px;
-  background: rgb(212, 194, 212);
+  background: var(--second-color);
   border-radius: 10px;
   box-shadow: 1px 8px 10px 2px var(--glass-bg);
   overflow: hidden;
